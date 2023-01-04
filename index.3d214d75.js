@@ -27178,19 +27178,19 @@ const titleData = {
     spanText2: "Grayz App"
 };
 const mainButtonData = {
-    children: "About"
+    children: "<Journal>"
 };
 const mainButton2Data = {
-    children: "objkt.com"
+    children: "<objkt.com>"
 };
 const mainButton3Data = {
-    children: "Archives"
+    children: "<Archives>"
 };
 const mainButton4Data = {
-    children: "Extra"
+    children: "<Extra>"
 };
 const mainButton5Data = {
-    children: "Contact"
+    children: "<About>"
 };
 const startMenuData = {
     mainButtonProps: mainButtonData,
@@ -30913,7 +30913,7 @@ function WelcomePrompt(props) {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "welcome-to-gz suisseintl-regular-normal-black-13px",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "welcome-screen",
+                to: "..",
                 children: children
             }, void 0, false, {
                 fileName: "components/WelcomePrompt/index.jsx",

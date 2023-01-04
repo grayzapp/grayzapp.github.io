@@ -1,0 +1,351 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://px.animaapp.com/6373c51f1be4ff5592b6817a.6373c5201be4ff5592b6817d.iA91bna.rcp.png";
+@font-face {
+  font-family: Suisse Intl-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url("SuisseIntl-Regular.0a461460.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Suisse Intl-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url("SuisseIntl-Medium.20452867.otf") format("opentype");
+}
+
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.valign-text-middle {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.splash-screen {
+  height: 100vh;
+  min-height: 711px;
+  min-width: 337px;
+  width: 100%;
+  background: #fff linear-gradient(#f8f8f8 0%, #fff 100%);
+  border: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 49px 17px;
+  display: flex;
+  position: relative;
+}
+
+.welcome-prompt {
+  height: 300px;
+  min-width: 150px;
+  display: flex;
+}
+
+.welcome-to-gz {
+  letter-spacing: 0;
+  text-align: justify;
+  text-align-last: center;
+  width: 95px;
+  flex: 1;
+  line-height: normal;
+}
+
+
+
+.title-welcome-screen {
+  cursor: pointer;
+  height: 40px;
+  min-width: 280px;
+  margin-top: -18.5px;
+  transition: all .5s ease-in-out;
+  display: flex;
+}
+
+.title-welcome-screen:hover {
+  transform: translate(5px);
+}
+
+.title-1 {
+  color: #0000;
+  font-family: var(--font-family-suisse_intl-medium);
+  font-size: var(--font-size-s);
+  letter-spacing: 0;
+  width: 280px;
+  flex: 1;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.span0 {
+  color: var(--black);
+}
+
+.span1 {
+  color: #dcdddd;
+}
+
+.start-menu {
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+  position: relative;
+}
+
+.main-button-4-start-menu {
+  border: .25px solid;
+  border-color: var(--black);
+  height: 20px;
+  min-width: 80px;
+  opacity: 0;
+  text-decorations: none;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+.main-button-4-start-menu.animate-enter4 {
+  opacity: 0;
+  text-decorations: none;
+  animation: .6s ease-in-out .3s forwards animate-enter4-frames;
+  transform: scale(0);
+}
+
+.about-4 {
+  height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 48px;
+  text-decorations: none;
+  margin-top: 0;
+  margin-left: 6px;
+  line-height: normal;
+}
+
+@keyframes animate-enter4-frames {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+a:visited {
+  color: inherit;
+}
+
+.main-button-3-start-menu {
+  border: .25px solid;
+  border-color: var(--black);
+  height: 20px;
+  min-width: 80px;
+  opacity: 0;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+.main-button-3-start-menu.animate-enter3 {
+  opacity: 0;
+  animation: .6s ease-in-out .3s forwards animate-enter3-frames;
+  transform: scale(0);
+}
+
+.about-3 {
+  height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 31px;
+  margin-top: 0;
+  margin-left: 6px;
+  line-height: normal;
+}
+
+@keyframes animate-enter3-frames {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.main-button-2-start-menu {
+  border: .25px solid;
+  border-color: var(--black);
+  height: 20px;
+  min-width: 80px;
+  opacity: 0;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+.main-button-2-start-menu.animate-enter2 {
+  opacity: 0;
+  animation: .6s ease-in-out .3s forwards animate-enter2-frames;
+  transform: scale(0);
+}
+
+.about-2 {
+  height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 52px;
+  margin-top: 0;
+  margin-left: 6px;
+  line-height: normal;
+}
+
+@keyframes animate-enter2-frames {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.main-button-1-start-menu {
+  border: .25px solid;
+  border-color: var(--black);
+  height: 20px;
+  min-width: 80px;
+  opacity: 0;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+.main-button-1-start-menu.animate-enter1 {
+  opacity: 0;
+  animation: .6s ease-in-out .3s forwards animate-enter1-frames;
+  transform: scale(0);
+}
+
+.about-1 {
+  height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 59px;
+  margin-top: 0;
+  margin-left: 6px;
+  line-height: normal;
+}
+
+@keyframes animate-enter1-frames {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.main-button-start-menu {
+  border: .25px solid;
+  border-color: var(--black);
+  height: 20px;
+  min-width: 80px;
+  opacity: 0;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+
+.main-button-start-menu.animate-enter {
+  opacity: 0;
+  animation: .6s ease-in-out .3s forwards animate-enter-frames;
+  transform: scale(0);
+}
+
+.about {
+  height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 36px;
+  margin-top: 0;
+  margin-left: 6px;
+  line-height: normal;
+}
+
+@keyframes animate-enter-frames {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.welcome-screen {
+  height: 100vh;
+  min-height: 711px;
+  min-width: 354px;
+  width: 100%;
+  background: #fff linear-gradient(#f8f8f8 0%, #fff 100%);
+  border: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 199px;
+  padding: 49px 17px;
+  display: flex;
+  position: relative;
+}
+
+.social-footer {
+  height: 80px;
+  min-width: 320px;
+}
+
+:root {
+  --black: #000;
+  --font-size-m: 13px;
+  --font-size-s: 12px;
+  --font-family-suisse_intl-medium: "Suisse Intl-Medium", Helvetica;
+  --font-family-suisse_intl-regular: "Suisse Intl-Regular", Helvetica;
+}
+
+.suisseintl-regular-normal-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-suisse_intl-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.e1b8c111.css.map */

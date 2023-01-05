@@ -27103,59 +27103,74 @@ var _splashScreenDefault = parcelHelpers.interopDefault(_splashScreen);
 var _welcomeScreen = require("./components/WelcomeScreen");
 var _welcomeScreenDefault = parcelHelpers.interopDefault(_welcomeScreen);
 var _web = require("@react-spring/web");
-var _welcomePrompt = require("./components/WelcomePrompt");
-var _welcomePromptDefault = parcelHelpers.interopDefault(_welcomePrompt);
-var _mainButton = require("./components/MainButton");
-var _mainButtonDefault = parcelHelpers.interopDefault(_mainButton);
+var _s = $RefreshSig$();
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/splash-screen",
+                    path: "/:path(|splash-screen)",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _splashScreenDefault.default), {
                         welcomePromptProps: splashScreenData.welcomePromptProps
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/:path(|welcome-screen)",
+                    path: "/welcome-screen",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _welcomeScreenDefault.default), {
                         titleProps: welcomeScreenData.titleProps,
                         startMenuProps: welcomeScreenData.startMenuProps
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 20,
-                        columnNumber: 11
+                        lineNumber: 21,
+                        columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 19,
-                    columnNumber: 9
+                    lineNumber: 20,
+                    columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "App.jsx",
-            lineNumber: 15,
+            lineNumber: 16,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "App.jsx",
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 }
 _c = App;
 exports.default = App;
+const useAnimation = (ref)=>{
+    _s();
+    const spring = (0, _web.useSpring)({
+        from: {
+            opacity: 0
+        },
+        to: {
+            opacity: 1
+        },
+        ref: ref
+    });
+    return spring;
+};
+_s(useAnimation, "xrfx8rkkJgEmgq4ddSaV8nbWakk=", false, function() {
+    return [
+        (0, _web.useSpring)
+    ];
+});
 const welcomePromptData = {
-    children: "My name is Gabriel Dell’Aiuto. I designed \xa9Gz to serve as my proxy server. An intermediary for my online and offline endeavours.\n\n\xa9 2023 Grayz or Gz — release 1.0.1\n\nThis app was designed and developed with ReactJS. Click Here to check my Github repository. A Progressive Web App (PWA) version of Gz\xa9 is in development."
+    children: "Welcome,"
 };
 const splashScreenData = {
     welcomePromptProps: welcomePromptData
@@ -27166,13 +27181,13 @@ const titleData = {
             "Gz Archive",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 42,
+                lineNumber: 58,
                 columnNumber: 42
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 42,
+        lineNumber: 58,
         columnNumber: 16
     }, undefined),
     spanText2: "Grayz App"
@@ -27211,7 +27226,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./components/WelcomeScreen":"9xkvV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App.css":"7g3a6","./components/SplashScreen":"apWRD","@react-spring/web":"75MAn","./components/WelcomePrompt":"t2Z1P","./components/MainButton":"bj8w2"}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./components/WelcomeScreen":"9xkvV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App.css":"7g3a6","./components/SplashScreen":"apWRD","@react-spring/web":"75MAn"}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -30762,17 +30777,17 @@ function MainButton5(props) {
                 children: children
             }, void 0, false, {
                 fileName: "components/MainButton5/index.jsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 75
             }, this)
         }, void 0, false, {
             fileName: "components/MainButton5/index.jsx",
-            lineNumber: 10,
+            lineNumber: 11,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "components/MainButton5/index.jsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 9
     }, this);
 }

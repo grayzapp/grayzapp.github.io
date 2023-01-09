@@ -27098,24 +27098,24 @@ var _appCss = require("./App.css");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _archivePage = require("./components/ArchivePage");
-var _archivePageDefault = parcelHelpers.interopDefault(_archivePage);
-var _frame1 = require("./components/Frame1");
-var _frame1Default = parcelHelpers.interopDefault(_frame1);
 var _aboutPage = require("./components/AboutPage");
 var _aboutPageDefault = parcelHelpers.interopDefault(_aboutPage);
 var _welcome = require("./components/Welcome");
 var _welcomeDefault = parcelHelpers.interopDefault(_welcome);
 var _loading = require("./components/Loading");
 var _loadingDefault = parcelHelpers.interopDefault(_loading);
+var _frame1 = require("./components/Frame1");
+var _frame1Default = parcelHelpers.interopDefault(_frame1);
+var _archivePage = require("./components/ArchivePage");
+var _archivePageDefault = parcelHelpers.interopDefault(_archivePage);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/archivepage",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _archivePageDefault.default), {
-                        ...archivePageData
+                    path: "/aboutpage",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutPageDefault.default), {
+                        ...aboutPageData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 15,
@@ -27124,41 +27124,6 @@ function App() {
                 }, void 0, false, {
                     fileName: "App.jsx",
                     lineNumber: 14,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/frame-1",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _frame1Default.default), {
-                        spanText1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-                            children: [
-                                "GZ 1.0.2",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, void 0, void 0)
-                            ]
-                        }, void 0, true, void 0, void 0),
-                        spanText2: "grayz.app",
-                        startMenuProps: frame1Data.startMenuProps
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 18,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/aboutpage",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutPageDefault.default), {
-                        ...aboutPageData
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 30,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27178,12 +27143,12 @@ function App() {
                         mainButtonProps: welcomeData.mainButtonProps
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 33,
+                        lineNumber: 18,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 32,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27191,6 +27156,41 @@ function App() {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loadingDefault.default), {
                         click: "(click)",
                         loading2Props: loadingData.loading2Props
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 33,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/frame-1",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _frame1Default.default), {
+                        spanText1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
+                            children: [
+                                "GZ 1.0.2",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, void 0, void 0)
+                            ]
+                        }, void 0, true, void 0, void 0),
+                        spanText2: "grayz.app",
+                        startMenuProps: frame1Data.startMenuProps
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 37,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/archivepage",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _archivePageDefault.default), {
+                        ...archivePageData
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 49,
@@ -27218,174 +27218,19 @@ exports.default = App;
 const mainButton1Data = {
     children: "←Back"
 };
-const archivePageData = {
-    archives: "(ARCHIVES)",
-    sculptural: "(SCULPTURAL)",
-    name1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 64,
-                columnNumber: 28
-            }, undefined),
-            "Teddy Fresh, Ceramic Ornament, 2022.",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 64,
-                columnNumber: 70
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 64,
-        columnNumber: 12
-    }, undefined),
-    image9: "/img/image-9@2x.png",
-    name2: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 66,
-                columnNumber: 28
-            }, undefined),
-            "Teddy Fresh, Button, 2022."
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 66,
-        columnNumber: 12
-    }, undefined),
-    image10: "/img/image-10@2x.png",
-    image11: "/img/image-11@2x.png",
-    morsoHeelsGcdsS: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 69,
-                columnNumber: 38
-            }, undefined),
-            "Morso Heels, GCDS, SS23.",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 69,
-                columnNumber: 68
-            }, undefined),
-            "I sketched and 3D sculpted the heels. The sculptural element was then adapted to the upper."
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 69,
-        columnNumber: 22
-    }, undefined),
-    image13: "/img/image-13@2x.png",
-    image2: "/img/image-2@2x.png",
-    image3: "/img/image-3@2x.png",
-    goldBiteChokerGcdsSs23: "Gold Bite Choker, GCDS, SS23.",
-    image14: "/img/image-14@2x.png",
-    image15: "/img/image-15@2x.png",
-    fashion: "(FASHION)",
-    frayedKnitSweaterGcdsFw22: "Frayed Knit Sweater, GCDS, FW22.",
-    image4: "/img/image-4@2x.png",
-    image5: "/img/image-5@2x.png",
-    events: "(EVENTS)",
-    oneshot2022DjSe: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            "Oneshot, 2022.",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 81,
-                columnNumber: 52
-            }, undefined),
-            "DJ Set, Visual Art & Exhibition, Santeria Toscana, Milano"
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 81,
-        columnNumber: 22
-    }, undefined),
-    image12: "/img/image-12@2x.png",
-    name3: "Rosa Complesso",
-    name4: "Rosa Facile",
-    product: "(PRODUCT)",
-    ultramare20223D: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            "Ultramare, 2022.",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 86,
-                columnNumber: 54
-            }, undefined),
-            "3D Printed Sculptural Smart-Lamp. Raspberry PI 3B+, 144 RGB LEDs, scripted in python. 3.5 inch Touch Screen ",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 86,
-                columnNumber: 168
-            }, undefined),
-            "Corn-based filament, Soy-based resin."
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 86,
-        columnNumber: 22
-    }, undefined),
-    extra: "(EXTRA)",
-    panemEtCircenses: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            "Panem et circenses, 2022, cm 70 x 100, oil on canvas.",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 88,
-                columnNumber: 92
-            }, undefined),
-            "Bread on the table, a wolf in circus clothing, a four-spikes hat. A white scroll sits on the top-right corner."
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 88,
-        columnNumber: 23
-    }, undefined),
-    gz1: "/img/gz-1@2x.png",
-    mainButtonProps: mainButton1Data
-};
-const mainButton221Data = {
-    children: "feed"
-};
-const mainButton222Data = {
-    children: "objkt.com",
-    className: "main-button-3-2"
-};
-const mainButton223Data = {
-    children: "archive"
-};
-const mainButton224Data = {
-    children: "about"
-};
-const startMenuData = {
-    mainButton2Props: mainButton221Data,
-    mainButton3Props: mainButton222Data,
-    mainButton4Props: mainButton223Data,
-    mainButton5Props: mainButton224Data
-};
-const frame1Data = {
-    startMenuProps: startMenuData
-};
-const mainButton2Data = {
-    children: "←Back",
-    className: "main-button-1-overlap-group"
-};
 const aboutPageData = {
     spanText1: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: [
             "(GABRIEL DELL’AIUTO)",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 127,
+                lineNumber: 62,
                 columnNumber: 52
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 127,
+        lineNumber: 62,
         columnNumber: 16
     }, undefined),
     spanText2: "Italian-Dominican Designer. Born in San Pedro de Macor\xecs, Dominican Republic in 1996. Graduating from the University of Bologna, Law School (J.D. degree). University of California, Santa Cruz alumnus. Introduced to human-centered design and design thinking methods at CERN, CBI programme.",
@@ -27393,12 +27238,12 @@ const aboutPageData = {
     spanText3: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "App.jsx",
-            lineNumber: 130,
+            lineNumber: 65,
             columnNumber: 32
         }, undefined)
     }, void 0, false, {
         fileName: "App.jsx",
-        lineNumber: 130,
+        lineNumber: 65,
         columnNumber: 16
     }, undefined),
     spanText4: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
@@ -27406,13 +27251,13 @@ const aboutPageData = {
             "(GZ OR GRAYZ)",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 131,
+                lineNumber: 66,
                 columnNumber: 45
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 131,
+        lineNumber: 66,
         columnNumber: 16
     }, undefined),
     spanText5: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
@@ -27420,24 +27265,24 @@ const aboutPageData = {
             "Gz\xa9 or grayz.app is a design journal/database/archive/proxy, aimed at collecting the artworks and practices of Gabriel Dell’Aiuto (1996 — ongoing).",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 132,
+                lineNumber: 67,
                 columnNumber: 179
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 132,
+                lineNumber: 67,
                 columnNumber: 185
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 132,
+                lineNumber: 67,
                 columnNumber: 191
             }, undefined),
             "This app was designed and developed with ReactJS. "
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 132,
+        lineNumber: 67,
         columnNumber: 16
     }, undefined),
     spanText6: "Click Here",
@@ -27446,35 +27291,200 @@ const aboutPageData = {
             " to check my Github repository. A Progressive Web App (PWA) version of Gz\xa9 is in development.",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 134,
+                lineNumber: 69,
                 columnNumber: 125
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 134,
+                lineNumber: 69,
                 columnNumber: 131
             }, undefined),
-            "\xa9 2023 Grayz or Gz — release 1.0.1"
+            "\xa9 2023 Grayz or Gz — release 1.0.2"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 134,
+        lineNumber: 69,
         columnNumber: 16
     }, undefined),
-    mainButtonProps: mainButton2Data
+    mainButtonProps: mainButton1Data
 };
-const mainButton3Data = {
+const mainButton2Data = {
     children: "START",
-    className: "main-button-2-welcome"
+    className: "main-button-1-welcome"
 };
 const welcomeData = {
-    mainButtonProps: mainButton3Data
+    mainButtonProps: mainButton2Data
 };
 const loading2Data = {
-    src: "/img/comp-1-1@2x.gif"
+    src: "/img/comp-1-1-2x-1@1x.gif"
 };
 const loadingData = {
     loading2Props: loading2Data
+};
+const mainButton22Data = {
+    children: "feed"
+};
+const mainButton3Data = {
+    children: "objkt.com"
+};
+const mainButton4Data = {
+    children: "archive"
+};
+const mainButton5Data = {
+    children: "about"
+};
+const startMenuData = {
+    mainButton2Props: mainButton22Data,
+    mainButton3Props: mainButton3Data,
+    mainButton4Props: mainButton4Data,
+    mainButton5Props: mainButton5Data
+};
+const frame1Data = {
+    startMenuProps: startMenuData
+};
+const mainButton6Data = {
+    children: "←Back",
+    className: "main-button-2-archivepage"
+};
+const archivePageData = {
+    archives: "(ARCHIVES)",
+    sculptural: "(not comprehensive)",
+    tfImage: "/img/tf-image@2x.png",
+    name1: "Teddy Fresh, Ceramic Ornament, 2022.",
+    tfImageButton1: "/img/tf-image-button@2x.png",
+    tfImageButton2: "/img/tf-image-button-1@2x.png",
+    name2: "Teddy Fresh, Button, 2022.",
+    morso1: "/img/morso1@1x.png",
+    morso2: "/img/morso2@2x.png",
+    morso3: "/img/morso3@2x.png",
+    morsoHeelsGcdsFw22: "Morso Heels, GCDS, FW22.",
+    bite1: "/img/bite1@2x.png",
+    bite2: "/img/bite2@2x.png",
+    goldBiteChokerGcdsFw22: "Gold Bite Choker, GCDS, FW22.",
+    hk1: "/img/hk1@2x.png",
+    hk2: "/img/hk2@2x.png",
+    frayedKnitSweater: "Frayed Knit Sweater, GCDS x Hello Kitty, FW22.",
+    oneshotimage: "/img/oneshotimage@2x.png",
+    oneshot2022DjSe: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
+        children: [
+            "Oneshot, 2022.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 141,
+                columnNumber: 52
+            }, undefined),
+            "DJ Set, Visual Art & Exhibition, Santeria Toscana, Milan, Italy."
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 141,
+        columnNumber: 22
+    }, undefined),
+    ultra1: "/img/ultra1@2x.png",
+    ultra2: "/img/ultra2@2x.png",
+    ultra3: "/img/ultra3@2x.png",
+    ultramare20223D: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
+        children: [
+            "Ultramare, 2022.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 145,
+                columnNumber: 54
+            }, undefined),
+            "3D Printed Sculptural Smart-Lamp. Raspberry PI 3B+, 144 RGB LEDs, scripted in python. 3.5 inch Touch Screen ",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 145,
+                columnNumber: 168
+            }, undefined),
+            "Corn-based filament, Soy-based resin."
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 145,
+        columnNumber: 22
+    }, undefined),
+    rosafacile1: "/img/rosafacile1@2x.png",
+    rosafacile2: "/img/rosafacile2@2x.png",
+    rosafacile3: "/img/rosafacile3@2x.png",
+    rosacomplesso1: "/img/rosacomplesso1@2x.png",
+    rosacomplesso2: "/img/rosacomplesso2@2x.png",
+    rosacomplesso3: "/img/rosacomplesso3@2x.png",
+    rosacomplesso4: "/img/rosacomplesso4@2x.png",
+    rosacomplessopress: "/img/rosacomplessopress@2x.png",
+    rosacomplessopress2: "/img/rosacomplessopress2@2x.png",
+    name3: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
+        children: [
+            "Rosa Facile & Rosa Complesso, 2020.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 155,
+                columnNumber: 67
+            }, undefined),
+            "Dj Set and Exhibition.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 155,
+                columnNumber: 95
+            }, undefined),
+            "Parco Fiumi, Volterra, Italy."
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 155,
+        columnNumber: 12
+    }, undefined),
+    incrediblefriends: "/img/incrediblefriends@2x.png",
+    incredibleFriends: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
+        children: [
+            "“Incredible Friends”. An interactive book that engages kids through both analogic and digital active interactions within the story.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 157,
+                columnNumber: 171
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 157,
+                columnNumber: 177
+            }, undefined),
+            "Almacube, Innovation Hub of the University of Bologna / CERN Ideasquare, Geneve, Switzerland. CBI Programme 2019-20.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 157,
+                columnNumber: 299
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 157,
+                columnNumber: 305
+            }, undefined),
+            "Liasion company: Yoox Net-A-Porter"
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 157,
+        columnNumber: 24
+    }, undefined),
+    extra: "(EXTRA)",
+    panemetc: "/img/panemetc@2x.png",
+    panemEtCircenses: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
+        children: [
+            "Panem et circenses, 2022, cm 70 x 100, oil on canvas.",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 160,
+                columnNumber: 92
+            }, undefined),
+            "Bread on the table, a wolf in circus clothing, a four-spikes hat. A white scroll sits on the top-right corner."
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 160,
+        columnNumber: 23
+    }, undefined),
+    gz1: "/img/gz-1@2x.png",
+    mainButtonProps: mainButton6Data
 };
 var _c;
 $RefreshReg$(_c, "App");
@@ -30537,19 +30547,19 @@ var _mainButtonDefault = parcelHelpers.interopDefault(_mainButton);
 var _archivePageCss = require("./ArchivePage.css");
 var _reactRouterDom = require("react-router-dom");
 function ArchivePage(props) {
-    const { archives , sculptural , name1 , image9 , name2 , image10 , image11 , morsoHeelsGcdsS , image13 , image2 , image3 , goldBiteChokerGcdsSs23 , image14 , image15 , fashion , frayedKnitSweaterGcdsFw22 , image4 , image5 , events , oneshot2022DjSe , image12 , name3 , name4 , product , ultramare20223D , extra , panemEtCircenses , gz1 , mainButtonProps  } = props;
+    const { archives , sculptural , tfImage , name1 , tfImageButton1 , tfImageButton2 , name2 , morso1 , morso2 , morso3 , morsoHeelsGcdsFw22 , bite1 , bite2 , goldBiteChokerGcdsFw22 , hk1 , hk2 , frayedKnitSweater , oneshotimage , oneshot2022DjSe , ultra1 , ultra2 , ultra3 , ultramare20223D , rosafacile1 , rosafacile2 , rosafacile3 , rosacomplesso1 , rosacomplesso2 , rosacomplesso3 , rosacomplesso4 , rosacomplessopress , rosacomplessopress2 , name3 , incrediblefriends , incredibleFriends , extra , panemetc , panemEtCircenses , gz1 , mainButtonProps  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "archivepage screen",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "archives-archivepage animate-enter",
+                className: "archives-archivepage animate-enter13",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "archives-1 suisseintl-light-chicago-13px",
                         children: archives
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 42,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30557,7 +30567,30 @@ function ArchivePage(props) {
                         children: sculptural
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 43,
+                        lineNumber: 54,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 55,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "tf-image",
+                        src: tfImage,
+                        alt: "TF IMAGE"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 56,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30565,159 +30598,36 @@ function ArchivePage(props) {
                         children: name1
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 44,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-9",
-                        src: image9,
-                        alt: "image 9"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 45,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "archives-item suisseintl-regular-normal-chicago-13px",
-                        children: name2
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 46,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-10",
-                        src: image10,
-                        alt: "image 10"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 47,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-11",
-                        src: image11,
-                        alt: "image 11"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 48,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item suisseintl-regular-normal-chicago-13px",
-                        children: morsoHeelsGcdsS
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 49,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-13",
-                        src: image13,
-                        alt: "image 13"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 50,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-2",
-                        src: image2,
-                        alt: "image 2"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-3",
-                        src: image3,
-                        alt: "image 3"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 52,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item suisseintl-regular-normal-chicago-13px",
-                        children: goldBiteChokerGcdsSs23
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 53,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-14",
-                        src: image14,
-                        alt: "image 14"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-15",
-                        src: image15,
-                        alt: "image 15"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "archives-item-1 suisseintl-light-chicago-13px",
-                        children: fashion
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 56,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item suisseintl-regular-normal-chicago-13px",
-                        children: frayedKnitSweaterGcdsFw22
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 57,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-4",
-                        src: image4,
-                        alt: "image 4"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 58,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-5",
-                        src: image5,
-                        alt: "image 5"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 59,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item-1 suisseintl-light-chicago-13px",
-                        children: events
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "tf-image-button",
+                        src: tfImageButton1,
+                        alt: "TF IMAGE Button"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 60,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "oneshot-2022-dj-se suisseintl-regular-normal-chicago-13px",
-                        children: oneshot2022DjSe
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "tf-image-button-1",
+                        src: tfImageButton2,
+                        alt: "TF IMAGE Button"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 61,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image-12",
-                        src: image12,
-                        alt: "image 12"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 62,
@@ -30725,34 +30635,451 @@ function ArchivePage(props) {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "archives-item suisseintl-regular-normal-chicago-13px",
-                        children: name3
+                        children: name2
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 63,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "archives-item suisseintl-regular-normal-chicago-13px",
-                        children: name4
+                        className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 64,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "product suisseintl-light-chicago-13px",
-                        children: product
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "morso1",
+                        src: morso1,
+                        alt: "Morso1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 65,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item-2 suisseintl-regular-normal-chicago-13px",
-                        children: ultramare20223D
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 66,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "morso2",
+                        src: morso2,
+                        alt: "Morso2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 67,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 68,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "morso3",
+                        src: morso3,
+                        alt: "Morso3"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "archives-item suisseintl-regular-normal-chicago-13px",
+                        children: morsoHeelsGcdsFw22
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 72,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "bite1",
+                        src: bite1,
+                        alt: "Bite1"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 73,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 74,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "bite2",
+                        src: bite2,
+                        alt: "Bite2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 75,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 76,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item suisseintl-regular-normal-chicago-13px",
+                        children: goldBiteChokerGcdsFw22
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 77,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 78,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "hk1",
+                        src: hk1,
+                        alt: "HK1"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "hk2",
+                        src: hk2,
+                        alt: "HK2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 80,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 81,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item suisseintl-regular-normal-chicago-13px",
+                        children: frayedKnitSweater
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 82,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 83,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "oneshot-image",
+                        src: oneshotimage,
+                        alt: "OneshotImage"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 84,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 85,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "oneshot-2022-dj-se suisseintl-regular-normal-chicago-13px",
+                        children: oneshot2022DjSe
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 86,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 87,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "ultra1",
+                        src: ultra1,
+                        alt: "Ultra1"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 88,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 89,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "ultra2",
+                        src: ultra2,
+                        alt: "Ultra2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 90,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 91,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "ultra3",
+                        src: ultra3,
+                        alt: "Ultra3"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 92,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 93,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item-1 suisseintl-regular-normal-chicago-13px",
+                        children: ultramare20223D
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 94,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 95,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-facile1",
+                        src: rosafacile1,
+                        alt: "RosaFacile1"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 96,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 97,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-facile2",
+                        src: rosafacile2,
+                        alt: "RosaFacile2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 98,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 99,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-facile3",
+                        src: rosafacile3,
+                        alt: "RosaFacile3"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 100,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 101,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-complesso1",
+                        src: rosacomplesso1,
+                        alt: "RosaComplesso1"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 102,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 103,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-complesso2",
+                        src: rosacomplesso2,
+                        alt: "RosaComplesso2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 104,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 105,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-complesso3",
+                        src: rosacomplesso3,
+                        alt: "RosaComplesso3"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 106,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 107,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-complesso4",
+                        src: rosacomplesso4,
+                        alt: "RosaComplesso4"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-complesso-press",
+                        src: rosacomplessopress,
+                        alt: "RosaComplessoPress"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 110,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "rosa-complesso-press2",
+                        src: rosacomplessopress2,
+                        alt: "RosaComplessoPress2"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 112,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item suisseintl-regular-normal-chicago-13px",
+                        children: name3
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 115,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "incredible-friends",
+                        src: incrediblefriends,
+                        alt: "IncredibleFriends"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 116,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 117,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item suisseintl-regular-normal-chicago-13px",
+                        children: incredibleFriends
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 118,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30760,15 +31087,45 @@ function ArchivePage(props) {
                         children: extra
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 67,
+                        lineNumber: 120,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 121,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "panem-et-c",
+                        src: panemetc,
+                        alt: "PanemEtC"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 122,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 123,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item-2 suisseintl-regular-normal-chicago-13px",
+                        className: "archives-item-1 suisseintl-regular-normal-chicago-13px",
                         children: panemEtCircenses
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 68,
+                        lineNumber: 124,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30777,36 +31134,63 @@ function ArchivePage(props) {
                         alt: "Gz 1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 69,
+                        lineNumber: 126,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 127,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item-1 suisseintl-regular-normal-chicago-13px",
+                        children: "\xa9 2023 Gz"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 128,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 129,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/ArchivePage/index.jsx",
-                lineNumber: 41,
+                lineNumber: 52,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                 to: "/frame-1",
-                children: [
-                    "  ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButtonDefault.default), {
-                        children: mainButtonProps.children
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 71,
-                        columnNumber: 31
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButtonDefault.default), {
+                    className: mainButtonProps.className,
+                    children: mainButtonProps.children
+                }, void 0, false, {
+                    fileName: "components/ArchivePage/index.jsx",
+                    lineNumber: 132,
+                    columnNumber: 29
+                }, this)
+            }, void 0, false, {
                 fileName: "components/ArchivePage/index.jsx",
-                lineNumber: 71,
+                lineNumber: 132,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/ArchivePage/index.jsx",
-        lineNumber: 40,
+        lineNumber: 51,
         columnNumber: 5
     }, this);
 }
@@ -30836,7 +31220,7 @@ var _mainButtonCss = require("./MainButton.css");
 function MainButton(props) {
     const { children , className  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `main-button-archivepage animate-enter1 ${className || ""}`,
+        className: `main-button-aboutpage animate-enter3 ${className || ""}`,
         "show-on-scroll": true,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "back suisseintl-regular-normal-chicago-13px",
@@ -31011,6 +31395,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _startMenu = require("../StartMenu");
 var _startMenuDefault = parcelHelpers.interopDefault(_startMenu);
 var _frame1Css = require("./Frame1.css");
+var _reactRouterDom = require("react-router-dom");
 function Frame1(props) {
     const { spanText1 , spanText2 , startMenuProps  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31018,29 +31403,36 @@ function Frame1(props) {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "frame-1 screen",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "gz-102-grayzapp",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "span0",
-                            children: spanText1
-                        }, void 0, false, {
-                            fileName: "components/Frame1/index.jsx",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "suisseintl-regular-normal-alto-13px",
-                            children: spanText2
-                        }, void 0, false, {
-                            fileName: "components/Frame1/index.jsx",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "../",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "gz-102-grayzapp-frame-1 animate-enter12",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "span0",
+                                children: spanText1
+                            }, void 0, false, {
+                                fileName: "components/Frame1/index.jsx",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "span1",
+                                children: spanText2
+                            }, void 0, false, {
+                                fileName: "components/Frame1/index.jsx",
+                                lineNumber: 14,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Frame1/index.jsx",
+                        lineNumber: 12,
+                        columnNumber: 25
+                    }, this)
+                }, void 0, false, {
                     fileName: "components/Frame1/index.jsx",
-                    lineNumber: 11,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _startMenuDefault.default), {
@@ -31050,18 +31442,18 @@ function Frame1(props) {
                     mainButton5Props: startMenuProps.mainButton5Props
                 }, void 0, false, {
                     fileName: "components/Frame1/index.jsx",
-                    lineNumber: 15,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/Frame1/index.jsx",
-            lineNumber: 10,
+            lineNumber: 11,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/Frame1/index.jsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }
@@ -31075,7 +31467,7 @@ $RefreshReg$(_c, "Frame1");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../StartMenu":"fNMDl","./Frame1.css":"3yAp6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fNMDl":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../StartMenu":"fNMDl","./Frame1.css":"3yAp6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"cHIiW"}],"fNMDl":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$944b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31087,76 +31479,81 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _mainButton22 = require("../MainButton22");
-var _mainButton22Default = parcelHelpers.interopDefault(_mainButton22);
+var _mainButton2 = require("../MainButton2");
+var _mainButton2Default = parcelHelpers.interopDefault(_mainButton2);
+var _mainButton3 = require("../MainButton3");
+var _mainButton3Default = parcelHelpers.interopDefault(_mainButton3);
+var _mainButton4 = require("../MainButton4");
+var _mainButton4Default = parcelHelpers.interopDefault(_mainButton4);
+var _mainButton5 = require("../MainButton5");
+var _mainButton5Default = parcelHelpers.interopDefault(_mainButton5);
 var _startMenuCss = require("./StartMenu.css");
 var _reactRouterDom = require("react-router-dom");
 function StartMenu(props) {
     const { mainButton2Props , mainButton3Props , mainButton4Props , mainButton5Props  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "start-menu-frame-1 animate-enter2",
+        className: "start-menu",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "https://www.instagram.com/grayz.app/",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton22Default.default), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton2Default.default), {
                     children: mainButton2Props.children
                 }, void 0, false, {
                     fileName: "components/StartMenu/index.jsx",
-                    lineNumber: 11,
-                    columnNumber: 58
-                }, this)
-            }, void 0, false, {
-                fileName: "components/StartMenu/index.jsx",
-                lineNumber: 11,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "https://objkt.com/@grayz",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton22Default.default), {
-                    className: mainButton3Props.className,
-                    children: mainButton3Props.children
-                }, void 0, false, {
-                    fileName: "components/StartMenu/index.jsx",
-                    lineNumber: 12,
-                    columnNumber: 46
-                }, this)
-            }, void 0, false, {
-                fileName: "components/StartMenu/index.jsx",
-                lineNumber: 12,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/Archivepage",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton22Default.default), {
-                    children: mainButton4Props.children
-                }, void 0, false, {
-                    fileName: "components/StartMenu/index.jsx",
-                    lineNumber: 13,
-                    columnNumber: 35
-                }, this)
-            }, void 0, false, {
-                fileName: "components/StartMenu/index.jsx",
-                lineNumber: 13,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/Aboutpage",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton22Default.default), {
-                    children: mainButton5Props.children
-                }, void 0, false, {
-                    fileName: "components/StartMenu/index.jsx",
                     lineNumber: 14,
-                    columnNumber: 33
+                    columnNumber: 58
                 }, this)
             }, void 0, false, {
                 fileName: "components/StartMenu/index.jsx",
                 lineNumber: 14,
                 columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "https://objkt.com/@grayz",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton3Default.default), {
+                    children: mainButton3Props.children
+                }, void 0, false, {
+                    fileName: "components/StartMenu/index.jsx",
+                    lineNumber: 15,
+                    columnNumber: 46
+                }, this)
+            }, void 0, false, {
+                fileName: "components/StartMenu/index.jsx",
+                lineNumber: 15,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/ArchivePage",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton4Default.default), {
+                    children: mainButton4Props.children
+                }, void 0, false, {
+                    fileName: "components/StartMenu/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 37
+                }, this)
+            }, void 0, false, {
+                fileName: "components/StartMenu/index.jsx",
+                lineNumber: 16,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/AboutPage",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButton5Default.default), {
+                    children: mainButton5Props.children
+                }, void 0, false, {
+                    fileName: "components/StartMenu/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 35
+                }, this)
+            }, void 0, false, {
+                fileName: "components/StartMenu/index.jsx",
+                lineNumber: 17,
+                columnNumber: 11
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/StartMenu/index.jsx",
-        lineNumber: 10,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }
@@ -31170,11 +31567,11 @@ $RefreshReg$(_c, "StartMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../MainButton22":"jgS6c","./StartMenu.css":"jdadM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"cHIiW"}],"jgS6c":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0737 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./StartMenu.css":"jdadM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../MainButton3":"c27ZU","../MainButton4":"4bmsQ","../MainButton5":"sj2Dc","../MainButton2":"gHvUZ","react-router-dom":"cHIiW"}],"jdadM":[function() {},{}],"c27ZU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6f7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0737.prelude(module);
+$parcel$ReactRefreshHelpers$6f7c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31182,36 +31579,159 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _mainButton22Css = require("./MainButton22.css");
-function MainButton22(props) {
-    const { children , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `main-button-3-1 ${className || ""}`,
+var _mainButton3Css = require("./MainButton3.css");
+function MainButton3(props) {
+    const { children  } = props;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+        className: "main-button-4-start-menu animate-enter9",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "about suisseintl-regular-normal-chicago-13px",
+            className: "about-2 suisseintl-regular-normal-chicago-13px",
             children: children
         }, void 0, false, {
-            fileName: "components/MainButton22/index.jsx",
+            fileName: "components/MainButton3/index.jsx",
             lineNumber: 9,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "components/MainButton22/index.jsx",
+        fileName: "components/MainButton3/index.jsx",
         lineNumber: 8,
         columnNumber: 5
     }, this);
 }
-_c = MainButton22;
-exports.default = MainButton22;
+_c = MainButton3;
+exports.default = MainButton3;
 var _c;
-$RefreshReg$(_c, "MainButton22");
+$RefreshReg$(_c, "MainButton3");
 
-  $parcel$ReactRefreshHelpers$0737.postlude(module);
+  $parcel$ReactRefreshHelpers$6f7c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MainButton22.css":"7Fl5W","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7Fl5W":[function() {},{}],"jdadM":[function() {},{}],"3yAp6":[function() {},{}],"3MWEe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MainButton3.css":"hNoeJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hNoeJ":[function() {},{}],"4bmsQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f74b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f74b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _mainButton4Css = require("./MainButton4.css");
+function MainButton4(props) {
+    const { children  } = props;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+        className: "main-button-5-start-menu animate-enter10",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "about-3 suisseintl-regular-normal-chicago-13px",
+            children: children
+        }, void 0, false, {
+            fileName: "components/MainButton4/index.jsx",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/MainButton4/index.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+_c = MainButton4;
+exports.default = MainButton4;
+var _c;
+$RefreshReg$(_c, "MainButton4");
+
+  $parcel$ReactRefreshHelpers$f74b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MainButton4.css":"lrf64","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lrf64":[function() {},{}],"sj2Dc":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7ded = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7ded.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _mainButton5Css = require("./MainButton5.css");
+function MainButton5(props) {
+    const { children  } = props;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+        className: "main-button-6-start-menu animate-enter11",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "about-4 suisseintl-regular-normal-chicago-13px",
+            children: children
+        }, void 0, false, {
+            fileName: "components/MainButton5/index.jsx",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/MainButton5/index.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+_c = MainButton5;
+exports.default = MainButton5;
+var _c;
+$RefreshReg$(_c, "MainButton5");
+
+  $parcel$ReactRefreshHelpers$7ded.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MainButton5.css":"78XFN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"78XFN":[function() {},{}],"gHvUZ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9e8a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9e8a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _mainButton2Css = require("./MainButton2.css");
+function MainButton2(props) {
+    const { children  } = props;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+        className: "main-button-3-start-menu animate-enter8",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "about-1 suisseintl-regular-normal-chicago-13px",
+            children: children
+        }, void 0, false, {
+            fileName: "components/MainButton2/index.jsx",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/MainButton2/index.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+_c = MainButton2;
+exports.default = MainButton2;
+var _c;
+$RefreshReg$(_c, "MainButton2");
+
+  $parcel$ReactRefreshHelpers$9e8a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MainButton2.css":"d4HjJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d4HjJ":[function() {},{}],"3yAp6":[function() {},{}],"3MWEe":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f051 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31230,160 +31750,145 @@ var _reactRouterDom = require("react-router-dom");
 function AboutPage(props) {
     const { spanText1 , spanText2 , downloadRsum , spanText3 , spanText4 , spanText5 , spanText6 , spanText7 , mainButtonProps  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "aboutpage screen",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "overlap-group",
+        className: "aboutpage screen",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "about-1",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "gabriel-dellaiuto-about-1 valign-text-middle suisseintl-light-chicago-12px animate-enter3",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "suisseintl-light-chicago-12px",
-                                            children: spanText1
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 26,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "suisseintl-regular-normal-chicago-12px",
-                                            children: spanText2
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 27,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/AboutPage/index.jsx",
-                                    lineNumber: 25,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/AboutPage/index.jsx",
-                                lineNumber: 24,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://grayz.app/gda_resume.pdf",
-                                target: "_blank",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "download-rsum-about-1 valign-text-middle animate-enter4",
-                                    children: downloadRsum
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "gabriel-dellaiuto-about valign-text-middle suisseintl-light-chicago-12px animate-enter",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "suisseintl-light-chicago-12px",
+                                    children: spanText1
                                 }, void 0, false, {
                                     fileName: "components/AboutPage/index.jsx",
-                                    lineNumber: 31,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/AboutPage/index.jsx",
-                                lineNumber: 30,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "gz-or-grayz-gz-or-about-1 valign-text-middle suisseintl-regular-normal-chicago-12px animate-enter5",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "suisseintl-regular-normal-chicago-12px",
-                                            children: spanText3
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 35,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "suisseintl-light-chicago-12px",
-                                            children: spanText4
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 36,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "suisseintl-regular-normal-chicago-12px",
-                                            children: spanText5
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 37,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            href: "https://github.com/grayzapp/grayzapp.github.io",
-                                            target: "_blank",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "span3 suisseintl-regular-normal-chicago-12px",
-                                                children: spanText6
-                                            }, void 0, false, {
-                                                fileName: "components/AboutPage/index.jsx",
-                                                lineNumber: 39,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 38,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "suisseintl-regular-normal-chicago-12px",
-                                            children: spanText7
-                                        }, void 0, false, {
-                                            fileName: "components/AboutPage/index.jsx",
-                                            lineNumber: 41,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "suisseintl-regular-normal-chicago-12px",
+                                    children: spanText2
+                                }, void 0, false, {
                                     fileName: "components/AboutPage/index.jsx",
-                                    lineNumber: 34,
-                                    columnNumber: 15
+                                    lineNumber: 24,
+                                    columnNumber: 13
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "components/AboutPage/index.jsx",
-                                lineNumber: 33,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/AboutPage/index.jsx",
-                        lineNumber: 23,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/frame-1",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButtonDefault.default), {
-                            className: mainButtonProps.className,
-                            children: mainButtonProps.children
-                        }, void 0, false, {
+                            ]
+                        }, void 0, true, {
                             fileName: "components/AboutPage/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 33
+                            lineNumber: 22,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "components/AboutPage/index.jsx",
-                        lineNumber: 45,
-                        columnNumber: 11
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "http://link",
+                        target: "_blank",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "download-rsum-about valign-text-middle animate-enter1",
+                            children: downloadRsum
+                        }, void 0, false, {
+                            fileName: "components/AboutPage/index.jsx",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/AboutPage/index.jsx",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "gz-or-grayz-gz-or-about valign-text-middle suisseintl-regular-normal-chicago-12px animate-enter2",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "suisseintl-regular-normal-chicago-12px",
+                                    children: spanText3
+                                }, void 0, false, {
+                                    fileName: "components/AboutPage/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "suisseintl-light-chicago-12px",
+                                    children: spanText4
+                                }, void 0, false, {
+                                    fileName: "components/AboutPage/index.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "suisseintl-regular-normal-chicago-12px",
+                                    children: spanText5
+                                }, void 0, false, {
+                                    fileName: "components/AboutPage/index.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "https://github.com/grayzapp/grayzapp.github.io",
+                                    target: "_blank",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "span3 suisseintl-regular-normal-chicago-12px",
+                                        children: spanText6
+                                    }, void 0, false, {
+                                        fileName: "components/AboutPage/index.jsx",
+                                        lineNumber: 36,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/AboutPage/index.jsx",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "suisseintl-regular-normal-chicago-12px",
+                                    children: spanText7
+                                }, void 0, false, {
+                                    fileName: "components/AboutPage/index.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/AboutPage/index.jsx",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/AboutPage/index.jsx",
+                        lineNumber: 30,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/AboutPage/index.jsx",
-                lineNumber: 22,
-                columnNumber: 9
+                lineNumber: 20,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/frame-1",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButtonDefault.default), {
+                    children: mainButtonProps.children
+                }, void 0, false, {
+                    fileName: "components/AboutPage/index.jsx",
+                    lineNumber: 42,
+                    columnNumber: 29
+                }, this)
+            }, void 0, false, {
+                fileName: "components/AboutPage/index.jsx",
+                lineNumber: 42,
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "components/AboutPage/index.jsx",
-            lineNumber: 21,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "components/AboutPage/index.jsx",
-        lineNumber: 20,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -31419,7 +31924,7 @@ function Welcome(props) {
         className: "welcome suisseintl-regular-normal-chicago-13px screen",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "hello-my-name-is-ga-welcome valign-text-middle animate-enter7",
+                className: "hello-my-name-is-ga-welcome valign-text-middle animate-enter4",
                 children: helloMyNameIsGa
             }, void 0, false, {
                 fileName: "components/Welcome/index.jsx",
@@ -31427,7 +31932,7 @@ function Welcome(props) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/frame-1",
+                to: "/Frame-1",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainButtonDefault.default), {
                     className: mainButtonProps.className,
                     children: mainButtonProps.children
@@ -31442,7 +31947,7 @@ function Welcome(props) {
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "copyright-welcome valign-text-middle animate-enter9",
+                className: "copyright-welcome valign-text-middle animate-enter6",
                 children: copyright
             }, void 0, false, {
                 fileName: "components/Welcome/index.jsx",
@@ -31488,15 +31993,22 @@ function Loading(props) {
         className: "loading screen",
         onclick: "window.open('welcome.html', '_self');",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loading2Default.default), {
-                src: loading2Props.src
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/Welcome",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loading2Default.default), {
+                    src: loading2Props.src
+                }, void 0, false, {
+                    fileName: "components/Loading/index.jsx",
+                    lineNumber: 11,
+                    columnNumber: 31
+                }, this)
             }, void 0, false, {
                 fileName: "components/Loading/index.jsx",
                 lineNumber: 11,
-                columnNumber: 7
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "click valign-text-middle suisseintl-regular-normal-alto-13px",
+                className: "click valign-text-middle suisseintl-regular-normal-chicago-13px",
                 children: click
             }, void 0, false, {
                 fileName: "components/Loading/index.jsx",
@@ -31533,25 +32045,23 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _loading2Css = require("./Loading2.css");
-var _reactRouterDom = require("react-router-dom");
 function Loading2(props) {
     const { src  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-        to: "/Welcome",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "comp-1-3-loading animate-enter10",
-            style: {
-                backgroundImage: `url(${src})`
-            }
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "comp-1-3-loading animate-enter7",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            className: "comp-1-12x-1",
+            src: src,
+            alt: "comp-1-1@2x 1"
         }, void 0, false, {
             fileName: "components/Loading2/index.jsx",
-            lineNumber: 7,
-            columnNumber: 32
+            lineNumber: 9,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/Loading2/index.jsx",
-        lineNumber: 7,
-        columnNumber: 10
+        lineNumber: 8,
+        columnNumber: 5
     }, this);
 }
 _c = Loading2;
@@ -31564,6 +32074,6 @@ $RefreshReg$(_c, "Loading2");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Loading2.css":"dWvih","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"cHIiW"}],"dWvih":[function() {},{}],"1ztew":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Loading2.css":"dWvih","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dWvih":[function() {},{}],"1ztew":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
 
 //# sourceMappingURL=index.3d214d75.js.map

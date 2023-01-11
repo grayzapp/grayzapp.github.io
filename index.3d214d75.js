@@ -27136,7 +27136,7 @@ function App() {
                                 "My name is Gabriel.",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, void 0, void 0),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, void 0, void 0),
-                                "This is grayz.app, my digital studio."
+                                "Welcome to Gz."
                             ]
                         }, void 0, true, void 0, void 0),
                         copyright: "\xa9 2023 GZ",
@@ -27248,11 +27248,11 @@ const aboutPageData = {
     }, undefined),
     spanText4: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: [
-            "(GZ OR GRAYZ)",
+            "(\xa9GZ)",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
                 lineNumber: 66,
-                columnNumber: 45
+                columnNumber: 37
             }, undefined)
         ]
     }, void 0, true, {
@@ -27261,26 +27261,8 @@ const aboutPageData = {
         columnNumber: 16
     }, undefined),
     spanText5: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
-        children: [
-            "Gz\xa9 or grayz.app is a design journal/database/archive/proxy, aimed at collecting the artworks and practices of Gabriel Dell’Aiuto (1996 — ongoing).",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 67,
-                columnNumber: 179
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 67,
-                columnNumber: 185
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 67,
-                columnNumber: 191
-            }, undefined),
-            "This app was designed and developed with ReactJS. "
-        ]
-    }, void 0, true, {
+        children: "This app was designed and developed with ReactJS. "
+    }, void 0, false, {
         fileName: "App.jsx",
         lineNumber: 67,
         columnNumber: 16
@@ -27288,7 +27270,7 @@ const aboutPageData = {
     spanText6: "Click Here",
     spanText7: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: [
-            " to check my Github repository. A Progressive Web App (PWA) version of Gz\xa9 is in development.",
+            " to check my Github repository. A Progressive Web App (PWA) version of \xa9Gz is in development.",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
                 lineNumber: 69,
@@ -27476,7 +27458,7 @@ const archivePageData = {
                 lineNumber: 160,
                 columnNumber: 92
             }, undefined),
-            "Bread on the table, a wolf in circus clothing, a four-spikes hat. A white scroll sits on the top-right corner."
+            "Bread on the table, a wolf in circus clothing. A white scroll sits on the top-right corner."
         ]
     }, void 0, true, {
         fileName: "App.jsx",
@@ -30563,18 +30545,10 @@ function ArchivePage(props) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "sculptural suisseintl-light-chicago-13px",
-                        children: sculptural
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 55,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30583,14 +30557,14 @@ function ArchivePage(props) {
                         alt: "TF IMAGE"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 56,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 57,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30598,14 +30572,14 @@ function ArchivePage(props) {
                         children: name1
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 59,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30614,7 +30588,7 @@ function ArchivePage(props) {
                         alt: "TF IMAGE Button"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 60,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30623,14 +30597,14 @@ function ArchivePage(props) {
                         alt: "TF IMAGE Button"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 61,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 62,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30638,14 +30612,14 @@ function ArchivePage(props) {
                         children: name2
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 63,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 64,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30654,14 +30628,14 @@ function ArchivePage(props) {
                         alt: "Morso1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 65,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 66,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30670,14 +30644,14 @@ function ArchivePage(props) {
                         alt: "Morso2"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 67,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 68,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30686,14 +30660,14 @@ function ArchivePage(props) {
                         alt: "Morso3"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 69,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 70,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30701,14 +30675,14 @@ function ArchivePage(props) {
                         children: morsoHeelsGcdsFw22
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 71,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 72,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30717,14 +30691,14 @@ function ArchivePage(props) {
                         alt: "Bite1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 73,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 74,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30733,14 +30707,14 @@ function ArchivePage(props) {
                         alt: "Bite2"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 75,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 76,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30748,14 +30722,14 @@ function ArchivePage(props) {
                         children: goldBiteChokerGcdsFw22
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 77,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 78,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30764,7 +30738,7 @@ function ArchivePage(props) {
                         alt: "HK1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 79,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30773,14 +30747,14 @@ function ArchivePage(props) {
                         alt: "HK2"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 81,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30788,14 +30762,14 @@ function ArchivePage(props) {
                         children: frayedKnitSweater
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 82,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 83,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30804,14 +30778,14 @@ function ArchivePage(props) {
                         alt: "OneshotImage"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 84,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 85,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30819,14 +30793,14 @@ function ArchivePage(props) {
                         children: oneshot2022DjSe
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 86,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 87,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30835,14 +30809,14 @@ function ArchivePage(props) {
                         alt: "Ultra1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 88,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 89,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30851,14 +30825,14 @@ function ArchivePage(props) {
                         alt: "Ultra2"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 90,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 91,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30867,14 +30841,14 @@ function ArchivePage(props) {
                         alt: "Ultra3"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 92,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 93,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30882,14 +30856,14 @@ function ArchivePage(props) {
                         children: ultramare20223D
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 94,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 95,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30898,14 +30872,14 @@ function ArchivePage(props) {
                         alt: "RosaFacile1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 96,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 97,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30914,14 +30888,14 @@ function ArchivePage(props) {
                         alt: "RosaFacile2"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 98,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 99,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30930,14 +30904,14 @@ function ArchivePage(props) {
                         alt: "RosaFacile3"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 100,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 101,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30946,14 +30920,14 @@ function ArchivePage(props) {
                         alt: "RosaComplesso1"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 102,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 103,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30962,14 +30936,14 @@ function ArchivePage(props) {
                         alt: "RosaComplesso2"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 104,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 105,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30978,14 +30952,14 @@ function ArchivePage(props) {
                         alt: "RosaComplesso3"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 106,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 107,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30994,46 +30968,14 @@ function ArchivePage(props) {
                         alt: "RosaComplesso4"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 107,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 108,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "frame"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 109,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "rosa-complesso-press",
-                        src: rosacomplessopress,
-                        alt: "RosaComplessoPress"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 110,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "frame"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 111,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "rosa-complesso-press2",
-                        src: rosacomplessopress2,
-                        alt: "RosaComplessoPress2"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 112,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "frame"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31041,14 +30983,14 @@ function ArchivePage(props) {
                         children: name3
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 114,
+                        lineNumber: 109,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 115,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31057,14 +30999,14 @@ function ArchivePage(props) {
                         alt: "IncredibleFriends"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 116,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 117,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31072,14 +31014,14 @@ function ArchivePage(props) {
                         children: incredibleFriends
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 118,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 119,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31087,14 +31029,14 @@ function ArchivePage(props) {
                         children: extra
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 120,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 121,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31103,19 +31045,57 @@ function ArchivePage(props) {
                         alt: "PanemEtC"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 122,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 123,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "archives-item-1 suisseintl-regular-normal-chicago-13px",
                         children: panemEtCircenses
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 119,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 120,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "gz-1",
+                        src: gz1,
+                        alt: "Gz 1"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 121,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 122,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "archives-item-1 suisseintl-regular-normal-chicago-13px",
+                        children: "\xa9 2023 Gz"
+                    }, void 0, false, {
+                        fileName: "components/ArchivePage/index.jsx",
+                        lineNumber: 123,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "frame"
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 124,
@@ -31126,44 +31106,6 @@ function ArchivePage(props) {
                     }, void 0, false, {
                         fileName: "components/ArchivePage/index.jsx",
                         lineNumber: 125,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "gz-1",
-                        src: gz1,
-                        alt: "Gz 1"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 126,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "frame"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 127,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "archives-item-1 suisseintl-regular-normal-chicago-13px",
-                        children: "\xa9 2023 Gz"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 128,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "frame"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 129,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "frame"
-                    }, void 0, false, {
-                        fileName: "components/ArchivePage/index.jsx",
-                        lineNumber: 130,
                         columnNumber: 9
                     }, this)
                 ]
@@ -31179,12 +31121,12 @@ function ArchivePage(props) {
                     children: mainButtonProps.children
                 }, void 0, false, {
                     fileName: "components/ArchivePage/index.jsx",
-                    lineNumber: 132,
+                    lineNumber: 127,
                     columnNumber: 29
                 }, this)
             }, void 0, false, {
                 fileName: "components/ArchivePage/index.jsx",
-                lineNumber: 132,
+                lineNumber: 127,
                 columnNumber: 7
             }, this)
         ]
@@ -31787,7 +31729,7 @@ function AboutPage(props) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "http://link",
+                        href: "/Resume_2023_Gabriel_DellAiuto.pdf",
                         target: "_blank",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "download-rsum-about valign-text-middle animate-enter1",
